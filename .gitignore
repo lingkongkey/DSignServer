@@ -1,0 +1,44 @@
+# ---- 私钥（严禁上传公开仓库）----
+*.key
+tsa.key
+tsa_legacy.key
+
+# ---- 运行时配置与日志 ----
+HookSigntool.ini
+*.log
+tsa_requests.log
+
+# ---- 编译产物 ----
+Release/
+Debug/
+x64/
+x86/
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.ipch
+*.idb
+*.tlog
+*.lastbuildstate
+*.unsuccessfulbuild
+/DSign_server
+
+# ---- Visual Studio / IDE ----
+.vs/
+*.suo
+*.user
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.db-shm
+*.VC.db-wal
+*.VC.opendb
+ipch/
+
+# ---- 临时文件 ----
+*.tmp
+*.bak
+*~
